@@ -64,6 +64,8 @@
     }
     .help-block {
       color: @red;
+      padding-left: 0;
+      list-style: none;
     }
   }
 }
@@ -105,4 +107,8 @@
 .input-group-sm + .form-control-feedback.fa,
 .form-group-sm .form-control + .form-control-feedback.fa {
   line-height: @input-height-small;
+}
+
+.input[type=file] {
+    display: none; /*???*/
 }
